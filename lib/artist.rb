@@ -20,4 +20,8 @@ class Artist
     songs << song
   end
   
+  def self.find_or_create_by_name  # composite constructor 
+    
+  end
+  
 end 
