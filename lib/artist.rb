@@ -4,9 +4,7 @@ class Artist
   @@all = [ ]
   
   def initialze(name)
-    
     @name = name
-    
   end
   
   
