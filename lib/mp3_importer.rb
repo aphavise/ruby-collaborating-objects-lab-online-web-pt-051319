@@ -10,7 +10,7 @@ class MP3Importer
   
   def files 
     # return all fire names in given path as an array
-    Dir.entries(path).filter { |filename| filename.end_with('.mp3')}
+    Dir.entries(path).filter { |filename| filename.end_with?('.mp3')}
   end
 
   
