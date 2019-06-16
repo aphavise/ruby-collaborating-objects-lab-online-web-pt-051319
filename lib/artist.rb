@@ -26,8 +26,8 @@ class Artist
   
   def self.create_by_name(name)
     #self.new(name).tap{|artist| artist.save}
-    artist = self.new(name)
-    artist.save
+    # artist = self.new(name)
+    # artist.save
   
   end
   
