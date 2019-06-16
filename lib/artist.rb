@@ -28,12 +28,11 @@ class Artist
     #self.new(name).tap{|artist| artist.save}
     # artist = self.new(name)
     # artist.save
-    
     self.new(name).tap(&:save)
   end
   
   def self.find_by_name(name)
     self.all.detect{|artist| artist.name == name}
   end
-  
+
 end 
