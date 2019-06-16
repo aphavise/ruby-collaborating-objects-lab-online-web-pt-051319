@@ -13,6 +13,7 @@ class MP3Importer
     Dir.entries(path).filter { |filename| filename.end_with('.mp3')}
   end
   
+  def 
   
   def end_with?
     
